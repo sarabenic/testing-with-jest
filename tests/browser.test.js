@@ -37,5 +37,5 @@ describe('Clicking "Pusha till stacken"', () => {
 
 test('The page should contain three buttons', async () => {
     let buttons = await driver.findElements(By.tagName('button'));
-    expect(buttons.length).toBe(2);
+    expect(buttons.length).toBe(3);
 });

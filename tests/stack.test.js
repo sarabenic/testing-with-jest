@@ -21,5 +21,5 @@ test('peek on stack with two or more elements returns the top element', () => {
 test('pop should return the latest added value', () => {
     stack.push(10);
     stack.push(20);
-    expect(stack.pop()).toBe(10);
+    expect(stack.pop()).toBe(20);
 });
